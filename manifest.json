@@ -1,0 +1,12 @@
+{
+  "name": "Hide YouTube Shorts",
+  "description": "Hides shorts from your youtube subscription feed.",
+  "version" : "1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/feed/subscriptions*"],
+      "css": ["yt-hide-shorts.css"]
+    }
+  ],
+  "manifest_version": 3
+}
